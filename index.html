@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <a id="top"></a>
     <section class="head-block">
         <header class="header">
             <div class="container">
@@ -33,20 +34,24 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="header__item header__item_button">
-                            <a class="header__link">home</a>
-                        </li>
-                        <li class="header__item header__item_button">
-                            <a class="header__link">about</a>
-                        </li>
-                        <li class="header__item header__item_button">
-                            <a class="header__link">services</a>
-                        </li>
-                        <li class="header__item header__item_button">
-                            <a class="header__link">works</a>
-                        </li>
-                        <li class="header__item header__item_button">
-                            <a class="header__link">contact</a>
+                        <li>
+                            <ul class="menu-list menu-list_disabled">
+                                <li class="header__item header__item_button">
+                                    <a href="#" class="header__link">home</a>
+                                </li>
+                                <li class="header__item header__item_button">
+                                    <a class="header__link scroll-to" href="#about-us">about</a>
+                                </li>
+                                <li class="header__item header__item_button">
+                                    <a href="#services" class="header__link scroll-to">services</a>
+                                </li>
+                                <li class="header__item header__item_button">
+                                    <a href="#works" class="header__link scroll-to">works</a>
+                                </li>
+                                <li class="header__item header__item_button">
+                                    <a href="#contact" class="header__link scroll-to">contact</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="header__item_burger">
                             <span class="header__burger"></span>
@@ -66,6 +71,7 @@
         </div>
     </section>
     <section class="about-us-block">
+        <a id="about-us"></a>
         <div class="container container_about-us">
             <div class="about-us-block__banner">
                 <img class="about-us-block__icon" src="images/icon-aboutus.png" alt="icon">
@@ -95,6 +101,7 @@
         </div>
     </section>
     <section class="services">
+        <a id="services"></a>
         <div class="container container_services">
             <div class="services__rectangle-block services__rectangle-block_upper">
                 <img class="services__icon" src="images/services.png" alt="graphic-icon">
@@ -141,6 +148,7 @@
     <section class="recent-works">
         <div class="container container_recent-works">
             <img class="recent-works__logo" src="images/icon-works.png" alt="logo">
+            <a id="works"></a>
             <h2 class="recent-works__title">recent works</h2>
             <div class="recent-works__slider">
                 <div class="recent-works__slider-item">
@@ -156,7 +164,7 @@
                     <img class="recent-works__slider-image" src="images/slide.png" alt="slide">
                 </div>
             </div>
-            <a class="button-link button-link_slider-block" href="#">Viev Gallery</a>
+            <a class="button-link button-link_slider-block" href="#">View Gallery</a>
         </div>
     </section>
     <section class="team">
@@ -463,6 +471,7 @@
     </section>
     <section class="get-in-touch">
         <div class="container container_get-in-touch">
+            <a id="contact"></a>
             <img class="get-in-touch__logo" src="images/getintouch.png" alt="logo">
             <h2 class="get-in-touch__title">GET IN TOUCH</h2>
             <form class="get-in-touch__form" action="#">
@@ -553,6 +562,8 @@
             </div>
         </div>
     </footer>
+    <a class="top-button scroll-to" href="#top">
+    </a>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
