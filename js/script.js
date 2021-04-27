@@ -3,7 +3,7 @@ $(document).ready(function () {
         dots: true,
         responsive: [
             {
-                breakpoint: 576,
+                breakpoint: 769,
                 settings: {
                     arrows: false,
                 }
@@ -19,13 +19,13 @@ $(document).ready(function () {
             {
                 breakpoint: 769,
                 settings: {
+                    arrows: false,
                     slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    arrows: false,
                     slidesToShow: 1,
                 }
             }
@@ -47,3 +47,17 @@ $("a.scroll-to").on("click", function (e) {
         scrollTop: $(anchor).offset().top - 60
     }, 800);
 });
+
+function backToTop() {
+    let topBtn = $(".top-button");
+
+    $(window).on("scroll", () => {
+        if ($(this).scrollTop() >= 800) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    })
+}
+
+backToTop();
