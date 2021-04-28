@@ -1,5 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+  font-weight: 300;
+  font-style: normal
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+  font-weight: 700;
+  font-style: normal
+}
 
 html, 
 body {
@@ -45,7 +68,7 @@ body {
 }
 
 .head-block {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     background-image: url(../images/header-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,7 +139,7 @@ body {
 }
 
 .head-block__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
@@ -126,7 +149,7 @@ body {
 }
 
 .head-block__subtitle {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-style: italic;
     font-size: 2.7rem;
     color: #FEFEFB;
@@ -195,7 +218,7 @@ body {
 
 .about-us-block__title {
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     color: #FEFBFC;
     font-size: 3.6rem;
     margin: 4.5rem 0 0 0;
@@ -211,7 +234,7 @@ body {
 }
 
 .button-link {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-style: italic;
     font-size: 2rem;
     display: block;
@@ -284,14 +307,14 @@ body {
 .services__square-title {
     text-transform: uppercase;
     font-size: 2.3rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-weight: 700;
     color: #665F60;
     margin: 2.5rem 0 0 0;
 }
 
 .services__square-subtitle {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-style: italic;
     font-size: 1.7rem;
     color: #665F60;
@@ -339,7 +362,7 @@ body {
 }
 
 .services__rectangle-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-size: 4rem;
     text-transform: uppercase;  
     color: #FEFCFD;
@@ -347,7 +370,7 @@ body {
 }
 
 .services__rectangle-subtitle {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-style: italic;
     text-align: center;
     width: 34rem;
@@ -374,10 +397,9 @@ body {
 }
 
 .recent-works__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     text-transform: uppercase;
     font-size: 3.8rem;
-    font-weight: 600;
     color: #FEFCFD;
     margin: 3.2rem 0 0 0;
 }
@@ -550,7 +572,7 @@ body {
 }
 
 .team__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-weight: 600;
     color: #665F60;
     font-size: 3.5rem;
@@ -595,8 +617,9 @@ body {
 }
 
 .team__name {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-size: 2.4rem;
+    font-weight: 700;
     color: #9F9ACF;
     text-transform: uppercase;
     margin: 1.2rem 0 0 0;
@@ -673,6 +696,7 @@ body {
 
 .container_get-in-touch {
     text-align: center;
+    position: relative;
 }
 
 .get-in-touch {
@@ -683,8 +707,6 @@ body {
 
 .get-in-touch__title {
     font-family: "PT Sans", sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.4rem;
     font-size: 3.6rem;
     color: #fff;
     margin: 2.1rem 0 0 0;
@@ -699,13 +721,13 @@ body {
 }
 
 .get-in-touch__input::placeholder {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-style: italic;
     color: #fff;
 }
 
 .get-in-touch__message {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-style: italic;
     max-width: 100%;
     min-width: 100%;
@@ -722,13 +744,13 @@ body {
 }
 
 .get-in-touch__message::placeholder {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-style: italic;
     color: #fff;
 }
 
 .get-in-touch__input {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-style: italic;
     padding: 2.5rem;
     width: 43rem;
@@ -827,8 +849,13 @@ body {
     width: 34.8rem;
     height: 6.44rem;
     position: absolute;
-    right: -28rem;
+    right: -50.5rem;
     transition: all 0.3s ease;
+    top: 15rem;
+}
+
+.get-in-touch__info-block_phone {
+    top: 21.4rem;
 }
 
 .get-in-touch__info-logo {
@@ -844,8 +871,13 @@ body {
     height: 3.6rem;
 }
 
+.get-in-touch__info-img_phone {
+    width: 2rem;
+    height: 3.4rem;
+}
+
 .get-in-touch__info {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-size: 1.4rem;
     color: #665F60;
     display: flex;
@@ -856,9 +888,9 @@ body {
 }
 
 .get-in-touch__info-block:hover {
-    transform: translateX(-28rem);
+    transform: translateX(-27.8rem);
     cursor: pointer;
-  }
+}
 
 /* responsive part */
 
@@ -871,6 +903,10 @@ body {
 @media (max-width: 768px) {
     :root {
         font-size: 0.5vw;
+    }
+
+    .get-in-touch__info-block {
+        right: -68rem;
     }
 
     .header__list {
@@ -1117,6 +1153,15 @@ body {
 @media (max-width: 576px) {
     :root {
         font-size: 0.9vw;
+    }
+
+    .get-in-touch__info-block {
+        right: -28rem;
+        top: 25rem;
+    }
+
+    .get-in-touch__info-block_phone {
+        top: 31.4rem;
     }
 
     .container_recent-works {
